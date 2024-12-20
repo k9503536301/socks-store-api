@@ -125,7 +125,7 @@ class SockServiceTest {
 
         int result = sockService.countSocks("purple", ComparisonOperator.LESS_THAN, 60);
 
-        assertEquals(32, result); // Только носки с содержанием хлопка меньше 60%
+        assertEquals(32, result);
     }
 
     @Test
@@ -137,7 +137,7 @@ class SockServiceTest {
 
         int result = sockService.countSocks("orange", ComparisonOperator.EQUAL, 82);
 
-        assertEquals(22, result); // Только носки с точным содержанием хлопка 82%
+        assertEquals(22, result);
     }
 }
 
